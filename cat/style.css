@@ -1,11 +1,20 @@
+@font-face {
+  font-family: MyFont;
+  src:url(Mayonice.otf);
+}
 html {
   height: 100%;
   width: 100%;
 }
-body {
-  font-family: Tahoma, san-serif;
-}
 
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+ }
 .little{
   width: 100px;
 }
@@ -13,8 +22,12 @@ body {
 .big{
   width: 500px
 }
+#big{
+  width: 500px
+}
 
 .part1{
+  font-family: Roboto;
   color:aqua
 }
 .part2{
@@ -23,4 +36,8 @@ body {
 
 .part3{
   color:cadetblue
+}
+
+h1 {
+  font-family: MyFont;
 }
